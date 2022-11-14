@@ -1,0 +1,1131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tajawal:wght@200;300;400;500;700;800;900&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: 'pobbins', sans-serif;
+}
+
+body {
+    background: #222;
+    color: #D8D9CF;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 190px;
+    background: #423f3e4b;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid #D8D9CF;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation div {
+    padding-left: 40px;
+}
+
+.logo img {
+    border-radius: 50%;
+    width: 65px;
+    cursor: pointer;
+}
+
+.links a {
+    padding-left: 50px;
+    text-decoration: none;
+    color: #FFEFD6;
+    transition: .2s ease;
+    
+}
+
+.links a:hover {
+    transform: scale(1.3);
+    color: #FFEFD6;
+    text-decoration:underline ;
+}
+
+.contact-icons a i {
+    color: #FFEFD6;
+    padding-left: 15px;
+    font-size: 20px;
+    transition: .3s ease;
+}
+
+.contact-icons a i:hover {
+    color: #F2DEBA;
+    transform: scale(1.3);
+}
+
+
+                /* Header */
+
+
+.information {
+    width: 100%;
+    height: 78%;
+    background-image: url(./images/pexels-jéshoots-234527.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#text {
+    color: #F2DEBA;
+    padding-top: 90px;
+    font-size: 70px;
+    font-weight: 700;
+    text-transform:capitalize ;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.pragraph {
+    width: 100%;
+    padding: 30px 170px;
+    color:#D8D9CF;
+}
+
+.pragraph h2 {
+    font-size: 2.6em;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+
+.pragraph h2 span {
+    font-weight: 900;
+    color:#A27B5C ;
+}
+
+
+.pragraph p {
+    font-size: 1.2em;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    width: 50%;
+    font-weight: 500;
+    color:#EDEDED ;
+}
+
+.contact-btn {
+    padding-top: 80px;
+}
+
+
+.contact-btn button {
+    height: 40px;
+    width: 130px;
+    background: none;
+    border: 2px solid #EDEDED;
+    border-radius: 15px;
+    color: #A27B5C;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    transition: .4s ease;
+}
+
+.contact-btn button:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.social-icons {
+    padding-top: 30px;
+}
+
+.social-icons a i {
+    color: #D8D9CF;
+    padding-right: 25px;
+    font-size: 2em;
+    transition: .4s ease;
+}
+
+.social-icons a i:hover {
+    color: #A27B5C;
+    transform: scale(1.3);
+}
+
+
+
+                                /* Services */
+
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    border: 2px solid #A27B5C;
+    width: 300px;
+    margin: 50px auto;
+    border-radius: 35px;
+    text-transform: capitalize;
+}
+
+.title span {
+    font-size: 75px;
+    color: #A27B5C;
+    font-weight: 800;
+}
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card {
+    width: 21.25em;
+    margin: 25px;
+    box-shadow: 15px;
+    border-radius: 15px;
+    background-color: #101113e8;
+    padding: 20px;
+    transition: .7s ease;
+    cursor: pointer;
+}
+
+#card-st {
+    background: #EF9A53;
+}
+
+#sec-card {
+    background: #C539B4;
+}
+
+#third-card {
+    background: #6D9886;
+}
+
+#forth-card {
+    background: #DD5353;
+}
+
+.card:hover {
+    transform: scale(1.1);
+
+}
+
+.icon {
+    text-align: center;
+    font-size: 4.2em;
+    color: #D8D9CF;
+}
+
+.info h3{
+    text-align: center;
+    font-size: 35px;
+    margin: 10px;
+    color: #D8D9CF;
+    text-transform: capitalize;
+}
+.info p{
+    color: #D8D9CF;
+    font-size: 20px;
+    text-align: center;
+    margin:20px ;
+}
+
+
+                                    /* About */
+
+.aboutme p {
+    text-align: center;
+    padding: 20px 140px;
+    margin: auto;
+    width: 80%;
+    font-size: 25px;
+}
+
+
+.progress {
+    position: relative;
+    width: 40%;
+    height: 20px;
+    background-color: #D8D9CF;
+    margin: 14px 0;
+    border-radius: 15px;
+}
+
+.progress .progress-bar {
+    width: 0%;
+    opacity: 0;
+    height: 100%;
+    background-color: #A27B5C;
+    border-radius: 15px;
+    color: #222;
+    font-weight: 500;
+    position: relative;
+}
+
+.progress-bar span {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+#skills-sec {
+    margin: 30px 70px;
+}
+
+.skills-title {
+    font-size: 30px;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+
+.skills-title span {
+    color: #A27B5C;
+    font-size: 60px;
+}
+
+
+            /* offers */
+
+.offres-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.offer-card {
+    width: 23.25em;
+    margin: 25px;
+    box-shadow: 15px;
+    padding: 10px;
+    transition: .7s ease;
+    cursor: pointer;
+    text-align: center;
+    border: 2px solid #C539B4;
+    transition: .4s ease;
+}
+
+
+.offer-card:hover {
+    transform: scale(1.07);
+}
+
+.offer-card:hover img {
+    opacity: .5;
+}
+
+.offer-card img {
+    width: 100%;
+}
+
+.offer-info div {
+    padding-top: 10px;
+}
+
+.offer-info p {
+    padding-top: 10px;
+    font-size: 20px;
+    color: #D8D9CF;
+    text-transform: capitalize;
+}
+
+.offer-info h2 {
+    padding-top: 10px;
+    font-size: 1.6em;
+    color: #D8D9CF;
+    text-transform: capitalize;
+}
+
+.offer-info h2 span {
+    font-size: 2em;
+    color: #A27B5C;
+}
+
+.offer-info p span {
+    font-weight: bold;
+    color: #A27B5C;
+}
+
+.price {
+    font-weight: 800;
+    font-size: 1.6em;
+}
+
+
+.vote {
+    color: gold;
+}
+
+.vote i:hover {
+    color: goldenrod;
+}
+
+.offer-btn {
+    margin-top: 10px;
+    height: 3em;
+    width: 7em;
+    background-color: #C539B4;
+    color: #D8D9CF;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    border-radius: 13px;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+
+.offer-btn:hover {
+    transform: scale(1.1);
+}
+
+
+                /* wrapper */
+
+.visitors {
+    margin: 80px 70px;
+}
+
+.wrapper {
+    width: 80vw;
+    display: flex;
+    margin: 20px auto;
+}
+
+.wrapper-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+}
+
+.visitor-card {
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 25%;
+    height: 24vmin;
+    border: 1px solid #6D9886;
+    border-bottom: 12px solid #6D9886;
+    border-radius: 13px;
+}
+
+.wrapper-container i  {
+    padding: 20px;
+    font-size: 60px;
+    color: #A27B5C;
+}
+
+.wrapper-container span {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.wrapper-container p {
+    padding-bottom: 20px;
+}
+
+
+.wrapper-container #heart {
+    color: red;
+}
+
+.wrapper-container #done {
+    color: green;
+}
+
+.wrapper-container #user {
+    color: #EDEDED;
+}
+
+.wrapper-container #face {
+    color: orange;
+}
+
+#face-card {
+    border-bottom: 12px solid orange;
+}
+
+#user-card {
+    border-bottom: 12px solid #D8D9CF;
+}
+
+
+#done-card {
+    border-bottom: 12px solid green;
+}
+
+
+#heart-card {
+    border-bottom: 12px solid red;
+}
+
+
+
+                    /* profile */
+
+.profile {
+    margin: 80px 70px;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.person-info {
+    width: 50%;
+}
+
+
+.personal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+
+.personal h2 , .personal p {
+    color: #D8D9CF;
+    font-size: 1.4em;
+}
+
+.personal h2 span {
+    color: #A27B5C;
+    font-size: 1.5em;
+}
+
+
+.whoiam {
+    font-size: 20px;
+    font-weight: 500;
+    width: 40%;
+    text-transform: capitalize;
+}
+
+footer {
+    margin-top: 40px;
+    background: #A27B5C;
+}
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-info {
+    width: 40%;
+    margin: 5em 30px ;
+    color: #222;
+}
+
+.footer-info h2 {
+    font-weight: 800;
+}
+
+.footer-sites {
+    width: 60%;
+    margin: 5em 80px ;
+    padding-left: 70px;
+    color: #222;
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+}
+
+.footer-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.grid {
+    margin-right:60px ;
+}
+
+.footer-sites div {
+    padding-top: 20px;
+    font-weight: 500;
+    font-size: auto;
+    cursor: pointer;
+}
+
+.footer-grid h3 {
+    color: #444;
+    cursor: auto;
+}
+
+.grid div a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #222;
+    transition: .1s ease;
+}
+
+.grid div a:hover {
+    color: #444;
+    font-size:16px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        /* 1 */
+
+@media (max-width:450px) {
+
+    header {
+        display: flex;
+        padding: 10px 40px;
+    }
+    .navigation div {
+        padding-left: 10px;
+    }
+    
+    
+    .logo img {
+        width: 40px;
+    }
+    
+    
+    .contact-icons a i {
+        padding-left: 0px;
+        font-size: 13px;
+    }
+    
+    .links a {
+        padding-left: 10px;
+        font-weight: 600;
+        font-size: 10px;
+    }
+
+    #text {
+        color: #F2DEBA;
+        padding-top: 90px;
+        font-size: 40px;
+        font-weight: 700;
+        text-transform:capitalize ;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+    
+    .pragraph {
+        width: 100%;
+        padding: 30px 10px;
+        color:#D8D9CF;
+    }
+    
+    .pragraph h2 {
+        font-size: 1.6em;
+        text-transform: capitalize;
+        padding-bottom: 10px;
+        letter-spacing: 2px;
+    }
+    
+    .pragraph p {
+        font-size: 13px;
+        padding-bottom: 10px;
+        letter-spacing: 2px;
+        width: 100%;
+    }
+    
+    .title  {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .title span  {
+        font-size: 50px;
+    }
+
+
+    #skills-sec {
+        margin: 17px 20px;
+    }
+
+    .skills-title {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+
+    .skills-title span {
+        color: #A27B5C;
+        font-size: 40px;
+    }
+
+    .aboutme p {
+        padding: 0;
+        margin: auto;
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .progress {
+        width: 100%;
+        height: 10px;
+        background-color: #D8D9CF;
+        margin: 8px 0;
+        border-radius: 15px;
+    }
+
+    .progress .progress-bar {
+        width: 0%;
+        height: 100%;
+        background-color: #A27B5C;
+        border-radius: 15px;
+        color: #222;
+        font-weight: 500;
+    }
+
+
+    .wrapper-container i  {
+        padding-bottom: 5px;
+        font-size: 40px;
+    }
+
+    .wrapper-container span {
+        font-size: 10px;
+        padding-bottom: 5px;
+    }
+
+
+
+    .personal {
+        width: 100%;
+        text-transform: capitalize;
+        padding-bottom: 14px;
+    }
+
+    .personal h2 , .personal p {
+        font-size: .9em;
+    }
+
+    .personal h2 span {
+        font-size: 1.1em;
+    }
+
+    .profile {
+        margin: 0;
+    }
+    
+    .personal {
+        width: 70%;
+        text-transform: capitalize;
+        padding-bottom: 14px;
+    }
+    
+    .personal h2 , .personal p {
+        font-size: .9em;
+    }
+    
+    .personal h2 span {
+        font-size: 1.3em;
+    }
+    
+    #profile-title {
+        padding-left: 20px;
+    }
+    
+    .whoiam {
+        font-size: 10px;
+        font-weight: 500;
+        width: 40%;
+        text-transform: capitalize;
+    }
+
+    .footer-info {
+        width: 60%;
+        margin: 0;
+    }
+    
+    .footer-info h2 {
+        font-size: 13px;
+        font-weight: 400px;
+    }
+
+
+    .footer-sites {
+        width: 30%;
+        padding: 3em 60px ;
+        padding-left: 70px;
+    }
+
+    .footer-grid {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .grid {
+        padding-right:30px ;
+    }
+    
+    .footer-sites div {
+        padding-top: 8px;
+    }
+    
+    .footer-grid h3 {
+        font-size: 16px;
+    }
+    
+    .grid div a {
+        font-size: 11px;
+    }
+    
+    .grid div a:hover {
+        font-size:12px ;
+    }
+
+    
+}
+    
+                    /* 2 */
+
+@media (max-width:840px) , (max-width:600px) {
+
+    header {
+        display: flex;
+        padding: 15px 60px;
+    }
+    .navigation div {
+        padding-left: 20px;
+    }
+    
+    
+    .logo img {
+        width: 60px;
+    }
+    
+    
+    .contact-icons a i {
+        padding-left: 10px;
+        font-size: 33px;
+    }
+    
+    .links a {
+        padding-left: 20px;
+        font-weight: 400;
+        font-size: 25px;
+    }
+
+    #text {
+        color: #F2DEBA;
+        padding-top: 90px;
+        font-size: 40px;
+        font-weight: 700;
+        text-transform:capitalize ;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+    
+    .pragraph {
+        width: 100%;
+        padding: 30px 40px;
+        color:#D8D9CF;
+    }
+    
+    .pragraph h2 {
+        font-size: 1.6em;
+        text-transform: capitalize;
+        padding-bottom: 10px;
+        letter-spacing: 2px;
+    }
+    
+    .pragraph p {
+        font-size: 17px;
+        padding-bottom: 10px;
+        letter-spacing: 2px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .aboutme p {
+        padding: 0;
+        margin: auto;
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .progress {
+        width: 100%;
+        height: 10px;
+        background-color: #D8D9CF;
+        margin: 8px 0;
+        border-radius: 15px;
+    }
+
+    .progress .progress-bar {
+        width: 0%;
+        height: 100%;
+        background-color: #A27B5C;
+        border-radius: 15px;
+        color: #222;
+        font-weight: 500;
+    }
+
+    .wrapper-container i  {
+        padding-bottom: 5px;
+        font-size: 30px;
+    }
+
+    .wrapper-container span {
+        font-size: 10px;
+        padding-bottom: 5px;
+    }   
+
+    .profile {
+        margin: 0;
+    }
+
+    .personal {
+        width: 70%;
+        text-transform: capitalize;
+        padding-bottom: 14px;
+    }
+
+    .personal h2 , .personal p {
+        font-size: .9em;
+    }
+
+    .personal h2 span {
+        font-size: 1.3em;
+    }
+
+    #profile-title {
+        padding-left: 20px;
+    }
+
+    .whoiam {
+        font-size: 10px;
+        font-weight: 500;
+        width: 40%;
+        text-transform: capitalize;
+    }
+
+
+    .footer-info {
+        width: 60%;
+        margin: 0;
+    }
+    
+    .footer-info h2 {
+        font-size: 13px;
+        font-weight: 400px;
+    }
+
+
+    .footer-sites {
+        width: 30%;
+        margin: 3em 60px ;
+        padding-left: 70px;
+    }
+
+    .footer-grid {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .grid {
+        margin-right:30px ;
+    }
+    
+    .footer-sites div {
+        padding-top: 8px;
+    }
+    
+    .footer-grid h3 {
+        font-size: 16px;
+    }
+    
+    .grid div a {
+        font-size: 11px;
+    }
+    
+    .grid div a:hover {
+        font-size:12px ;
+    }
+
+
+}
+                /* 3 */
+
+@media (max-width:500px) {
+    header {
+        display: flex;
+        padding: 6px 30px;
+    }
+    .navigation div {
+        padding-left: 10px;
+    }
+    
+    
+    .logo img {
+        width: 30px;
+    }
+    
+    
+    .contact-icons a i {
+        padding-left: 2px;
+        font-size: 10px;
+    }
+    
+    .links a {
+        padding-left: 0px;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .contact-btn  {
+        padding-top: 10px;
+    }
+
+    .aboutme p {
+        padding: 0;
+        margin: auto;
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .progress {
+        width: 100%;
+        height: 10px;
+        background-color: #D8D9CF;
+        margin: 8px 0;
+        border-radius: 15px;
+    }
+
+    .progress .progress-bar {
+        width: 0%;
+        height: 100%;
+        background-color: #A27B5C;
+        border-radius: 15px;
+        color: #222;
+        font-weight: 500;
+    }
+
+    .profile {
+        margin: 0;
+    }
+    
+    .personal {
+        width: 70%;
+        text-transform: capitalize;
+        padding-bottom: 14px;
+    }
+    
+    .personal h2 , .personal p {
+        font-size: .9em;
+    }
+    
+    .personal h2 span {
+        font-size: 1.3em;
+    }
+    
+    #profile-title {
+        padding-left: 20px;
+    }
+    
+    .whoiam {
+        font-size: 10px;
+        font-weight: 500;
+        width: 40%;
+        text-transform: capitalize;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-info {
+        width: 100%;
+        margin: 0px;
+        padding: 20px;
+    }
+    
+    .footer-info h2 {
+        font-size: 13px;
+        font-weight: 400px;
+    }
+
+    .footer-info p {
+        font-size: 10px;
+    }
+
+    .footer-sites {
+        width: 100%;
+        margin: 20px 0 ;
+        padding-left: 70px;
+    }
+    
+    .grid {
+        margin-right:20px ;
+    }
+
+    .footer-sites div {
+        padding-top: 8px;
+    }
+
+    .footer-grid {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .footer-grid h3 {
+        font-size: 16px;
+    }
+    
+    .grid div a {
+        font-size: 11px;
+    }
+    
+    .grid div a:hover {
+        font-size:12px ;
+    }
+
+    
+}
